@@ -1,6 +1,8 @@
 import React from "react";
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
+import withAuthentication from './WithAuthentication.js';
+
 import Navigation from './Navigation/Navigation.js';
 import LandingPage from '../Pages/LandingPage.js';
 import SignUpPage from '../Pages/SignUpPage.js';
@@ -28,4 +30,4 @@ const App = () =>
     </div>
   </Router>
 
-export default App;
+export default withAuthentication(App);

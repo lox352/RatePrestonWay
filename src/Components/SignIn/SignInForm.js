@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {withRouter} from 'react-router-dom';
 
-import {auth} from '../../firebase';
+import {auth} from '../../Firebase';
 import * as routes from '../../Constants/Routes.js';
 
 const INITIAL_STATE = {

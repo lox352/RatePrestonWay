@@ -1,31 +1,29 @@
 import React, {Component} from "react";
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 import * as routes from '../Constants/Routes.js';
 
 const SignUpPage = () =>
-  <div>
-    <h1>SignUp</h1>
-    <SignUpForm />
-  </div>
+    <div>
+        <h1>SignUp</h1>
+        <SignUpForm />
+    </div>
 
 class SignUpForm extends Component {
     constructor(props) {
-      super(props);
+        super(props);
     }
-  
-    onSubmit(event) {
 
-    }
+    onSubmit = (event) => {}
 
     render() {
-      return (
-        <form onSubmit={this.onSubmit}>
-  
-        </form>
-      );
+        return (
+            <form onSubmit={this.onSubmit}>
+
+            </form>
+        );
     }
-  }
+}
 
 
 

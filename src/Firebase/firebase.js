@@ -1,4 +1,5 @@
-import * as firebase from 'firebase';
+import firebase from 'firebase/app';
+import 'firebase/auth';
 
 const config = {
     apiKey: "AIzaSyDAxD8DJ_WEPhIHvLMuN2W60GxHGb9qdGE",
@@ -7,14 +8,14 @@ const config = {
     projectId: "rate-preston-way",
     storageBucket: "rate-preston-way.appspot.com",
     messagingSenderId: "1089211316580",
-};
+  };
 
-if (!firebase.apps.length) {
+  if (!firebase.apps.length) {
     firebase.initializeApp(config);
-}
+  }
 
-const auth = firebase.auth();
+  const auth = firebase.auth();
 
 export {
-    auth,
+  auth,
 };

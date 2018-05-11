@@ -1,6 +1,6 @@
 import React from "react";
 
-import SignUpForm from "../Components/SignUpForm/SignUpForm.js"
+import SignUpForm from "../Components/SignUp/SignUpForm.js"
 
 const SignUpPage = () =>
     <div>

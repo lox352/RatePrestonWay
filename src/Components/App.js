@@ -1,7 +1,7 @@
 import React from "react";
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import withAuthentication from './WithAuthentication.js';
+import withAuthentication from './Authentication/WithAuthentication.js';
 
 import Navigation from './Navigation/Navigation.js';
 import LandingPage from '../Pages/LandingPage.js';

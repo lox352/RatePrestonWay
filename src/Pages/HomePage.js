@@ -20,3 +20,18 @@ const HomePage = () => {
 
 
 export default HomePage;
+
+// *** Use something like this to get data from firestore ***
+// componentDidMount() {
+//   fetchPosts().then(response => {
+//     this.setState({
+//       posts: response.posts
+//     });
+//   });
+
+//   fetchComments().then(response => {
+//     this.setState({
+//       comments: response.comments
+//     });
+//   });
+// }

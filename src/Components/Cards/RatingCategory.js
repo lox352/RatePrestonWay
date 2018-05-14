@@ -1,6 +1,6 @@
 import React from "react";
 
 const RatingCategory = ({ category }) =>
-    <div>Category goes here</div>;
+    <div>{category.Title}</div>;
 
 export default RatingCategory;
